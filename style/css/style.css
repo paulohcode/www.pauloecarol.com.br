@@ -1,0 +1,340 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bree+Serif|Courgette|Dancing+Script|Great+Vibes|Lobster|Lobster+Two|Pacifico');
+
+#bg {
+  font: 14px Montserrat, Tahoma;
+  background: url(../../admin/imagens/bg_login/bg_login.jpg) no-repeat;
+  background-size: cover; }
+
+#login {
+  width: 400px;
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  box-shadow: 1px 1px 0px #fff;
+  text-align: center;
+  margin: 100px auto;
+  background: rgba(0, 0, 0, 0.2);
+  color: black; }
+
+/*# sourceMappingURL=style.css.map */
+#logoLogin {
+	width: 15em;
+	height: auto;
+	text-align: center;
+}
+ 
+/* referente ao painel adm */	
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font: 14px Montserrat, Tahoma;
+}
+
+
+/*referente a navegação e carousel do site */
+
+
+.bg-opacidade {
+	background: white;
+	width: 100%;
+	height: 5em;
+}
+
+.contador{
+	text-align: center;
+	
+}
+
+.contador .label{
+	font-size:14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.contador .conta{
+	padding: 0 0 20px;
+}
+
+.contador . block{
+	display: inline-block;
+	padding-top: 250px;
+	margin:  0 20px 20px;
+	height: 190px; 
+	width: 190px; 
+	font-size: 49px;
+}
+
+
+.bg-opacidade a{
+	color: gray!important;
+
+}
+
+.logoNav{
+	font-family: 'Dancing Script', cursive;
+	font-size: 2em;
+}
+
+
+
+.black{
+	color: gray;
+}
+
+.galeria{
+	height: 90vh;
+	position: relative;
+	overflow: hidden;
+}
+
+.foto:nth-child(1){
+	
+}
+.foto:nth-child(2){
+	animation-delay: 10s;
+}
+.foto:nth-child(3){
+	animation-delay: 20s;
+}
+
+.mensagem{
+	padding: 90px;
+}
+
+
+.foto {
+	position: absolute;
+	opacity: 0;
+	animation: animacao;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+}
+
+/*paralax*/
+
+
+#plx{
+	background: url(../../fotos/carousel/16.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: conver;
+	margin-bottom:5em;
+}
+#plx1{
+	background: url(../../fotos/carousel/17.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: conver;
+	margin-bottom:5em;
+}
+
+.wtitle{
+	padding: 250px 20px;
+	
+	
+
+}
+
+.textplx {
+	color: white;
+	background: rgba(0,0,0,0.3);
+	padding: 100px;
+	border-radius: 10px;
+	font-size: 4em;
+	font-family: 'Great Vibes', cursive;
+		
+}
+.wtitle2{
+	padding: 250px 20px;
+	color: black;
+}
+
+@keyframes animacao {
+	25%{
+		opacity: 1;
+		transform: scale(1.1,1.1);
+	}
+	50%{
+		opacity: 0;
+		transform: scale()
+	}
+}
+
+.gallery img{
+	width: 230px;
+	padding: 10px;
+	margin: 5px 10px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1)
+}
+
+.pageVH{
+	height: 100vh;
+}
+
+.imgTop{
+	color: dimgray;	
+	padding: 5px
+}
+
+
+
+.btn-voltar{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}
+
+.cont{
+	padding-left: 10em;
+	
+
+}
+
+.imgChacara{
+	width: 200px;
+	height: 200px;
+	margin: 0px 50px ;
+	border-radius: 50%;
+}
+.bannerCerimonia{
+	width: 100%;
+	height: auto;
+}
+
+.mapa{
+	
+	background: rgba(0,0,0,0.1);
+	padding: 10px 0px;
+}
+
+/*Efeito de fade ao carregar links da pagina*/
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+
+.fadeIn {
+-webkit-animation: fadeIn 3s ease-in-out;
+-moz-animation: fadeIn 3s ease-in-out;
+-o-animation: fadeIn 3s ease-in-out;
+animation: fadeIn 3s ease-in-out;
+}
+
+/*fim do efeito*/
+
+
+@media only screen and (max-width: 800px) {
+   .bg-opacidade {
+	width: 100%;
+	height: auto;
+	   
+	   
+	
+}
+	
+	.galeria{
+	height:200px;
+	position: relative;
+	overflow: hidden;
+}
+	.mensagem{
+	padding: 0px;
+}
+	
+.gallery img{
+	width: 150px;
+	padding: 10px;
+	filter: grayscale(100%);
+	transition: 1s;
+	margin: 0px;
+}
+	#msgGaleria{
+		margin-top: 50px;
+	}
+	
+	.mapa{
+		display: none;
+	}
+	
+	.mapa2{
+		display: block;
+	}
+	.imgChacara{
+	width: 70px;
+	height: 70px;
+	margin: 0px 10px ;
+	border-radius: 50%;
+}
+
+}
+
+
+@media only screen and (min-width: 800px) {
+	
+	.mapa2{
+		display: none;
+	}
+	
+	}
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navhover a:hover {
+	color: black !important;
+	font-size: 15px;
+}

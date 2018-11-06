@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font: 14px Montserrat, Tahoma;
+}
+ ul {
+     list-style-type:none
+ }
+
+.logo{
+	margin: 2em 3.5em;
+	width: 50%;
+	height: auto;
+}
+
+.menu{
+	width: 5px;
+	height: 100vh;
+	background-image: linear-gradient(to right top, #000104, #1a1b1e, #2e2f33, #42444a, #585b62);
+	padding-right: 0px;
+		
+}
+
+
+.iconeMenu i{
+	margin-left: 10em !important;
+}
+
+#navAdm {
+	
+	background-image: linear-gradient(to right top, #0082f9, #3986f4, #518aee, #638fe9, #7193e3);
+	height: 100vh;
+	
+}
+
+#navAdm ul li{
+	
+}
+
+#navAdm ul li a{
+	color: white;
+	
+}
+

@@ -1,0 +1,24 @@
+.count {
+	margin-left: 200px;
+}
+.countd{
+  display: inline-block;
+  width: 5em;
+  height: auto;
+  font-size: 10px;
+	text-align: center;
+
+}
+.countd span{
+  display: block;
+  font-size: 2em;
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+.count {
+	margin-left:0px;
+}
+}
